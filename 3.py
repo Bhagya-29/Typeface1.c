@@ -9,7 +9,7 @@ def valid(k):
 
 n = int(input())
 if n < len(valid_digits):
-    print(valid_digits[n-1])
+    print(valid_digits[n])
 else:
     count=len(valid_digits)
     k=valid_digits[-1]
